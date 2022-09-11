@@ -1,10 +1,53 @@
----
-title: NFT藝術家交易平台-藝術家介紹
-layout: ./app/layout.ejs
-engine: ejs
-current: artist
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFT藝術家交易平台-藝術家介紹</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary py-0 border-bottom position-fixed w-100 ">
+      <div class="container-fluid px-0 px-lg-2 align-items-stretch position-relative">
+        <a href="./index.html" class="navbar-brand d-flex flex-grow-1 ps-2 ps-lg-0 py-2 py-lg-7 me-0" href="#"><img src="./assets/images/logo.svg" alt="logo" class="w-auto align-items-center"></a>
+        <div class="navbar-search d-flex px-lg-10">
+          <div class="d-flex">
+            <input class="navbar__input form-control border-0 bg-primary me-6" type="search" placeholder="搜尋作品名稱、藝術家名稱"
+              aria-label="Search">
+            <button class="btn p-0 navbar__input__icon d-lg-none" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="btn p-0 d-none d-lg-block" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+          <button class="navbar-toggler border-0 text-info" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-0 align-items-stretch" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 text-center px-2 px-lg-0 align-items-stretch">
+            <li class="nav-item nav-border">
+              <a class="nav-link px-lg-11 py-lg-10 border-left" aria-current="page" href="#">探索</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-11 py-lg-10" href="./value.html">市值</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-danger text-secondary border-info d-lg-none" href="#" tabindex="-1" aria-disabled="true" data-bs-toggle="modal" data-bs-target="#walletModal">連結錢包</a>
+              <a class="nav-link d-none d-lg-block px-lg-11 py-lg-10" href="#" tabindex="-1"
+                aria-disabled="true" data-bs-toggle="modal" data-bs-target="#walletModal"><i class="fa-solid fa-wallet"></i></a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    
 <section>
     <div class="artist-intro container pt-12 mb-9">
         <div class="row pt-6 pt-lg-9 mt-lg-9">
@@ -187,3 +230,56 @@ current: artist
         </div>
     </div>
 </section>
+
+    <footer class="footer border-top font-Noto text-center pt-2">
+      <p class="mb-0 py-5">© ART NFT. All Rights Reserved</p>
+    </footer>
+
+    <!-- wallet modal -->
+    <div class="modal fade walletModal" id="walletModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered m-0 mx-lg-auto">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <h5 class="modal-title " id="exampleModalLabel">連結你的錢包</h5>
+            <button type="button" class="btn-close d-lg-none" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-lg-flex flex-wrap justify-content-between px-3 pt-6 pb-0">
+            <a href="#" class="wallet__link d-flex align-items-center border p-3 mb-2">
+              <img src="./assets/images/logo/connect01.png" alt="connect01" class="wallet__img me-3">
+              MetaMask
+            </a>
+            <a href="#" class="wallet__link d-flex align-items-center border p-3 mb-2">
+              <img src="./assets/images/logo/connect02.png" alt="connect02" class="wallet__img me-3">
+              Coinbase Wallet
+            </a>
+            <a href="#" class="wallet__link d-flex align-items-center border p-3 mb-2">
+              <img src="./assets/images/logo/connect03.png" alt="connect03" class="wallet__img me-3">
+              WalletConnect
+            </a>
+            <a href="#" class="wallet__link d-flex align-items-center border p-3 mb-2">
+              <img src="./assets/images/logo/connect04.png" alt="connect04" class="wallet__img me-3">
+              Phantom
+            </a>
+            <a href="#" class="wallet__link d-flex align-items-center border p-3 mb-2 mb-lg-0">
+              <img src="./assets/images/logo/connect05.png" alt="connect05" class="wallet__img me-3">
+              Glow
+            </a>
+            <a href="#" class="wallet__link d-flex align-items-center border p-3">
+              <img src="./assets/images/logo/connect06.png" alt="connect06" class="wallet__img me-3">
+              Fortmatic
+            </a>
+          </div>
+          <div class="modal-footer border-0 px-3 py-6 d-none d-lg-block text-center">
+            <button class="btn btn-danger border text-secondary">連結錢包</button>
+          </div>
+          <button class="btn btn-danger border text-secondary d-lg-none">連結錢包</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/fff1fd626f.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
