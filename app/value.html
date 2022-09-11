@@ -1,0 +1,562 @@
+---
+title: NFT藝術家交易平台-藝術品市值
+layout: ./app/layout.ejs
+engine: ejs
+current: value
+---
+
+<section>
+    <h1 class="text-center pt-14 mb-3 mb-lg-6">市價排行榜</h1>
+    <p class="text-center mb-7 mb-lg-11">NFT系列藝術作品排行榜！全球注目指標</p>
+    <div class="container">
+        <table class="table mb-13 d-none d-lg-table">
+            <thead class="bg-transparent">
+                <tr class="border-0 text-end">
+                    <th scope="col" class="border-0 "></th>
+                    <th scope="col" class="border-0 fw-normal text-start">系列作品名稱</th>
+                    <th scope="col" class="border-0 fw-normal">價值</th>
+                    <th scope="col" class="border-0 fw-normal font-Noto">24h%</th>
+                    <th scope="col" class="border-0 fw-normal font-Noto">7d%</th>
+                    <th scope="col" class="border-0 fw-normal">地板價</th>
+                    <th scope="col" class="border-0 fw-normal">擁有者</th>
+                    <th scope="col" class="border-0 fw-normal">作品數量</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white text-end fw-bold align-middle border">
+                <tr>
+                    <th scope="row" class="text-center border">1</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art13.jpg" alt="art13" class="value__img rounded-circle me-2 me-lg-3">
+                        追求者送我的花
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        1,774.19
+                    </td>
+                    <td class="text-up">+220.49%</td>
+                    <td class="text-down">-2.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">2</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art06.jpg" alt="art06" class="value__img rounded-circle me-2 me-lg-3">
+                        夏天的時候
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        1,524.89
+                    </td>
+                    <td class="text-up">+80.49%</td>
+                    <td class="text-down">-2.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        90.23
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">3</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art02.jpg" alt="art02" class="value__img rounded-circle me-2 me-lg-3">
+                        海洋波度
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        1,400.59
+                    </td>
+                    <td class="text-down">-3.92%</td>
+                    <td class="text-down">-13.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">4</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art03.jpg" alt="art03" class="value__img rounded-circle me-2 me-lg-3">
+                        賴床真的很不好
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        1,224.88
+                    </td>
+                    <td class="text-down">-9.23%</td>
+                    <td class="text-down">-20.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">5</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art01.jpg" alt="art01" class="value__img rounded-circle me-2 me-lg-3">
+                        瞳孔:流動的脈絡
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        1,021.09
+                    </td>
+                    <td class="text-up">+83.49%</td>
+                    <td class="text-down">-1.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">6</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art12.jpg" alt="art12" class="value__img rounded-circle me-2 me-lg-3">
+                        哭泣的時候
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        921.42
+                    </td>
+                    <td class="text-down">-9.43%</td>
+                    <td class="text-up">+183.49%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">7</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art14.jpg" alt="art14" class="value__img rounded-circle me-2 me-lg-3">
+                        破碎的菠蘿麵包
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        888.88
+                    </td>
+                    <td class="text-up">+20.49%</td>
+                    <td class="text-down">-0.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">8</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art08.jpg" alt="art08" class="value__img rounded-circle me-2 me-lg-3">
+                        人生中的貓咪們
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        770.23
+                    </td>
+                    <td class="text-up">+32.49%</td>
+                    <td class="text-up">+30.23</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">9</th>
+                    <td class="text-start d-flex align-items-center ">
+                        <img src="./assets/images/art19.jpg" alt="art19" class="value__img rounded-circle me-2 me-lg-3">
+                        髒兮兮的家
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        502.31
+                    </td>
+                    <td class="text-up">+13.49%</td>
+                    <td class="text-up">+50.23</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="text-center border">10</th>
+                    <td class="text-start d-flex align-items-center">
+                        <img src="./assets/images/art16.jpg" alt="art16" class="value__img rounded-circle me-2 me-lg-3">
+                        細胞小將
+                    </td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        420.20
+                    </td>
+                    <td class="text-up">+54.49%</td>
+                    <td class="text-down">-12.43%</td>
+                    <td>
+                        <i class="fa-brands fa-ethereum me-2"></i>
+                        2.90
+                    </td>
+                    <td>32.1K</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="accordion accordion-flush border mb-9 d-lg-none" id="valueAccordion">
+            <div class="accordion-item bg-white ">
+                <div class="d-flex border-bottom position-relative collapsed" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="py-6 px-2 border-end">1</span>
+                    <div class="d-flex align-items-center justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art13.jpg" alt="art13" class="value__img rounded-circle mx-2">
+                            追求者送我的花
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            1,774.19
+                        </div>
+                    </div>
+                    <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                        <div class="triangle-text value__plus position-absolute">+</div>
+                        <div class="triangle-text value__minus position-absolute">-</div>
+                    </div>
+                </div>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br/><span class="text-up fs-6">+220.49%</span></p>
+                        <p class="fs-9 mb-3">7d%<br /><span class="text-down fs-6">-2.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9">擁有者<br/><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br/><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <span class="py-6 px-2 border-end">2</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art06.jpg" alt="art06" class="value__img rounded-circle mx-2">
+                            夏天的時候
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            1,524.89
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body d-flex position-relative justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+80.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-2.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                90.23
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="true" aria-controls="collapseThree">
+                    <span class="py-6 px-2 border-end">3</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art02.jpg" alt="art02" class="value__img rounded-circle mx-2">
+                            海洋波度
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            1,400.59
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body d-flex position-relative justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-down fs-6">-3.92%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-13.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                    aria-expanded="true" aria-controls="collapseFour">
+                    <span class="py-6 px-2 border-end">4</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art03.jpg" alt="art03" class="value__img rounded-circle mx-2">
+                            賴床真的很不好
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            1,224.88
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-down fs-6">-9.23%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-20.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                    aria-expanded="true" aria-controls="collapseFive">
+                    <span class="py-6 px-2 border-end">5</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art01.jpg" alt="art01" class="value__img rounded-circle mx-2">
+                            瞳孔:流動的脈絡
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            1,021.09
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+83.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-1.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                    aria-expanded="true" aria-controls="collapseSix">
+                    <span class="py-6 px-2 border-end">6</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art12.jpg" alt="art12" class="value__img rounded-circle mx-2">
+                            哭泣的時候
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            921.42
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-down fs-6">-9.43%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-up fs-6">+183.49%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                    aria-expanded="true" aria-controls="collapseSeven">
+                    <span class="py-6 px-2 border-end">7</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art14.jpg" alt="art14" class="value__img rounded-circle mx-2">
+                            破碎的菠蘿麵包
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            888.88
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+20.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-0.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight"
+                    aria-expanded="true" aria-controls="collapseEight">
+                    <span class="py-6 px-2 border-end">8</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art08.jpg" alt="art08" class="value__img rounded-circle mx-2">
+                            人生中的貓咪們
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            770.23
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+32.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-up fs-6">+30.23</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNight"
+                    aria-expanded="true" aria-controls="collapseNight">
+                    <span class="py-6 px-2 border-end">9</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art19.jpg" alt="art19" class="value__img rounded-circle mx-2">
+                            髒兮兮的家
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            502.31
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseNight" class="accordion-collapse collapse" aria-labelledby="headingNight">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center border-bottom border-info">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+13.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-up fs-6">+50.23</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item bg-white">
+                <div class="d-flex border-bottom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                    aria-expanded="true" aria-controls="collapseTen">
+                    <span class="py-6 px-2 border-end">10</span>
+                    <div class="d-flex align-items-center position-relative justify-content-between w-100">
+                        <div class="value__info ">
+                            <img src="./assets/images/art16.jpg" alt="art16" class="value__img rounded-circle mx-2">
+                            細胞小將
+                        </div>
+                        <div class="value__price ms-auto me-2">
+                            <i class="fa-brands fa-ethereum me-2"></i>
+                            420.20
+                        </div>
+                        <div class="bottom-right-triangle position-absolute bottom-0 end-0 text-secondary text-up">
+                            <div class="triangle-text value__plus position-absolute">+</div>
+                            <div class="triangle-text value__minus position-absolute">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen">
+                    <div class="accordion-body d-flex justify-content-around flex-wrap text-center">
+                        <p class="fs-9 mb-3">24h%<br /><span class="text-up fs-6">+54.49%</span></p>
+                        <p class="fs-9">7d%<br /><span class="text-down fs-6">-12.43%</span></p>
+                        <p class="fs-9 mb-3">地板價<br />
+                            <span class="fs-6">
+                                <i class="fa-brands fa-ethereum me-2"></i>
+                                2.90
+                            </span>
+                        </p>
+                        <p class="fs-9 mb-3">擁有者<br /><span class="fs-6">32.1K</span></p>
+                        <p class="fs-9">作品數量<br /><span class="fs-6">1000</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

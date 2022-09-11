@@ -1,0 +1,16 @@
+body {
+    font-family: "Squada One", "Noto Sans TC", Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+input[type='checkbox'] {
+    accent-color: $info;
+}

@@ -1,0 +1,43 @@
+.value__img {
+    width: 48px;
+    height: 48px;
+}
+
+.accordion-item {
+    p {
+        width: 33.3333%;
+    }
+}
+
+.bottom-right-triangle {
+    border-bottom-color: $danger;
+    border-right-color: $danger;
+}
+
+.value__plus {
+    display: none;
+}
+
+.value__minus {
+    display: block;
+}
+
+.collapsed {
+    .bottom-right-triangle {
+        border-bottom-color: #000;
+        border-right-color: #000;
+    }
+
+    .value__plus {
+        display: block;
+    }
+
+    .value__minus {
+        display: none;
+    }
+}
+
+.triangle-text {
+    bottom: -30px;
+    right: 5px;
+}
