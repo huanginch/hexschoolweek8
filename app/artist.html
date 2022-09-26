@@ -40,11 +40,11 @@ current: artist
         <ul class="nav nav-tabs mb-6 mb-lg-9" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="nav-link active fs-3 fs-lg-1" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
-                    role="tab" aria-controls="home" aria-selected="true">Art Works</button>
+                    role="tab" aria-controls="home" aria-selected="true">Art Works <span class="d-none d-lg-inline fs-6">系列作品</span></button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link fs-3 fs-lg-1" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">Collection</button>
+                    role="tab" aria-controls="profile" aria-selected="false">Collection <span class="d-none d-lg-inline fs-6">收藏品</span></button>
             </li>
         </ul>
         <div class="tab-content" id="myTabContent">
@@ -53,7 +53,10 @@ current: artist
                     <div class="top-left-triangle position-absolute top-0 start-0"></div>
                     <div class="top-right-triangle position-absolute top-0 end-0"></div>
                     <h2 class="fw-bold fs-5 mb-3">追求者送我的花</h2>
-                    <p class="mb-6">我又沒有特別喜歡花，為什麼不給我現金就好，擺在那也不知道要幹嘛，只好畫起來看有沒有人要買，阿不然如果真的喜歡我，把這些都買回去八。</p>
+                    <div class="d-flex align-items-center mb-6">
+                        <p class="me-lg-13">我又沒有特別喜歡花，為什麼不給我現金就好，擺在那也不知道要幹嘛，只好畫起來看有沒有人要買，阿不然如果真的喜歡我，把這些都買回去八。</p>
+                        <button class="btn1 btn1-primary align-self-center align-self-lg-end d-none d-lg-inline">more</button>
+                    </div>
                     <div class="tab-imgs d-flex justify-content-between">
                         <div class="tab-img mb-3 bg-info p-2 mx-1">
                             <img src="./assets/images/the-new-york-public-library-vBejyCBXZBY-unsplash.jpg" alt="flower">
@@ -68,13 +71,16 @@ current: artist
                             <img src="./assets/images/art13.jpg" alt="art13">
                         </div>
                     </div>
-                    <button class="btn1 btn1-primary align-self-center align-self-lg-end">more</button>
+                    <button class="btn1 btn1-primary align-self-center align-self-lg-end d-lg-none">more</button>
                 </div>
                 <div class="tab-card card border px-3 py-7 px-lg-13 mb-lg-14">
                     <div class="top-left-triangle position-absolute top-0 start-0"></div>
                     <div class="top-right-triangle position-absolute top-0 end-0"></div>
                     <h2 class="fw-bold fs-5 mb-3">我家窗前的鳥</h2>
-                    <p class="mb-6">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+                    <div class="d-flex mb-6 align-items-center">
+                        <p class="me-lg-13">家門前每天都有不同的小鳥，大多數的小鳥都有特殊能力，特殊能力是什麼我就不說了，希望大家能從作品感受到小鳥的快樂。</p>
+                        <button class="btn1 btn1-primary align-self-center align-self-lg-end d-none d-lg-inline">more</button>
+                    </div>
                     <div class="tab-imgs d-flex justify-content-between">
                         <div class="tab-img mb-3 bg-info p-2 mx-1">
                             <img src="./assets/images/art27.jpg" alt="art27">
@@ -89,7 +95,7 @@ current: artist
                             <img src="./assets/images/art22.jpg" alt="art22">
                         </div>
                     </div>
-                    <button class="btn1 btn1-primary align-self-center align-self-lg-end">more</button>
+                    <button class="btn1 btn1-primary align-self-center align-self-lg-end d-lg-none">more</button>
                 </div>
             </div>
             <div class="tab-pane container fade mb-9 mb-lg-13" id="profile" role="tabpanel" aria-labelledby="profile-tab">

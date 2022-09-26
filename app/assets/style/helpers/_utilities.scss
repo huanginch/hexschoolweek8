@@ -14,9 +14,9 @@
     border: 1px solid transparent;
     position: relative;
     text-align: center;
-    padding: $spacer*2, $spacer*3;
+    padding: $spacer*0.5 $spacer*3;
+    font-size: 18px;
     display: block;
-    width: 132px;
     &::after {
         content: '';
         border-left: 16px solid transparent;
