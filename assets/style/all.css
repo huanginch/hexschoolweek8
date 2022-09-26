@@ -14900,9 +14900,9 @@ input[type='checkbox'] {
   border: 1px solid transparent;
   position: relative;
   text-align: center;
-  padding: 2rem, 3rem;
+  padding: 0.5rem 3rem;
+  font-size: 18px;
   display: block;
-  width: 132px;
 }
 
 .btn1::after {
