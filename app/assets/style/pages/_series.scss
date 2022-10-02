@@ -3,3 +3,32 @@
         width: 30%;
     }
 }
+
+.arthur__img {
+    width: 32px;
+    height: 32px;
+}
+
+.series__header__text {
+    width: 100%;
+    @media (min-width: 992px) {
+            max-width: 60%;
+    }
+}
+
+.series__header__info {
+    max-width: 100%;
+    @media (min-width: 992px ) {
+        max-width: 50%;
+    }
+}
+
+.block::after {
+    content: '';
+    width: 1px;
+    height: 45px;
+    bottom: 30%;
+    right: -1px;
+    position: absolute;
+    background: white;
+}
